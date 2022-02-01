@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.871843">
+    <testcase classname="" name="Select Type Option for nike" time="9.871843">
+        <system-out><![CDATA[Given User is on the web page of the Argos website..........................passed
+When user Search for the any products.......................................passed
+Then User should be able to get the selected products.......................passed
+When User click on the Categeory Option on Result Page......................passed
+Then User should be able to get all the products of the selected option.....passed
+Given User is on the ResultPage of the Argos Website........................passed
+Given user is on the ResultPage of Homepage  Argos Website..................passed
+When User click on the selcted Brand button.................................passed
+Then User should be able to get the all products of the selected Brand......passed
+Given User is on the ResultPage of HomePage of Argos WebSite................passed
+When User click on Type option..............................................passed
+Then User should be able to get all the products of the selected option.....passed
+]]></system-out>
+    </testcase>
+</testsuite>

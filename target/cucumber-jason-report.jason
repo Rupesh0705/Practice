@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 41070100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on the web page of the Argos website",
+            "match": {
+              "location": "HomePageStepDifinitions.user_is_on_the_web_page_of_the_Argos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3881155600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Search for the any products",
+            "match": {
+              "location": "HomePageStepDifinitions.user_Search_for_the_any_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be able to get the selected products",
+            "match": {
+              "location": "HomePageStepDifinitions.user_should_be_able_to_get_the_selected_products()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 343798100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on the Categeory Option on Result Page",
+            "match": {
+              "location": "ResultPageStepDefinition.user_click_on_the_Categeory_Option_on_Result_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to get all the products of the selected option.",
+            "match": {
+              "location": "ResultPageStepDefinition.user_should_be_able_to_get_all_the_products_of_the_selected_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2247200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the ResultPage of the Argos Website",
+            "match": {
+              "location": "BrandFilterStepDefinition.user_is_on_the_ResultPage_of_the_Argos_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the ResultPage of Homepage  Argos Website",
+            "match": {
+              "location": "ResultPageStepDefinition.user_is_on_the_ResultPage_of_Homepage_Argos_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 926386300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on the selcted Brand button",
+            "match": {
+              "location": "BrandFilterStepDefinition.user_click_on_the_selcted_Brand_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to get the all products of the selected Brand",
+            "match": {
+              "location": "BrandFilterStepDefinition.user_should_be_able_to_get_the_all_products_of_the_selected_Brand()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4095494200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Select Type Option for nike",
+        "description": "",
+        "id": ";select-type-option-for-nike",
+        "after": [
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 503800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on the ResultPage of HomePage of Argos WebSite",
+            "match": {
+              "location": "TypeStepDefinition.user_is_on_the_ResultPage_of_HomePage_of_Argos_WebSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 576421500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on Type option",
+            "match": {
+              "location": "TypeStepDefinition.user_click_on_Type_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to get all the products of the selected option.",
+            "match": {
+              "location": "ResultPageStepDefinition.user_should_be_able_to_get_all_the_products_of_the_selected_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/Resources/Type.feature",
+    "tags": []
+  }
+]

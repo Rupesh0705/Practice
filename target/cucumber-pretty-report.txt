@@ -1,0 +1,17 @@
+Feature: 
+
+  Background:                                                                [90m# src/test/Resources/Type.feature:2[0m
+    [32mGiven [0m[32mUser is on the web page of the Argos website[0m                       [90m# HomePageStepDifinitions.user_is_on_the_web_page_of_the_Argos_website()[0m
+    [32mWhen [0m[32muser Search for the any products[0m                                    [90m# HomePageStepDifinitions.user_Search_for_the_any_products()[0m
+    [32mThen [0m[32mUser should be able to get the selected products[0m                    [90m# HomePageStepDifinitions.user_should_be_able_to_get_the_selected_products()[0m
+    [32mWhen [0m[32mUser click on the Categeory Option on Result Page[0m                   [90m# ResultPageStepDefinition.user_click_on_the_Categeory_Option_on_Result_Page()[0m
+    [32mThen [0m[32mUser should be able to get all the products of the selected option.[0m [90m# ResultPageStepDefinition.user_should_be_able_to_get_all_the_products_of_the_selected_option()[0m
+    [32mGiven [0m[32mUser is on the ResultPage of the Argos Website[0m                     [90m# BrandFilterStepDefinition.user_is_on_the_ResultPage_of_the_Argos_Website()[0m
+    [32mGiven [0m[32muser is on the ResultPage of Homepage  Argos Website[0m               [90m# ResultPageStepDefinition.user_is_on_the_ResultPage_of_Homepage_Argos_Website()[0m
+    [32mWhen [0m[32mUser click on the selcted Brand button[0m                              [90m# BrandFilterStepDefinition.user_click_on_the_selcted_Brand_button()[0m
+    [32mThen [0m[32mUser should be able to get the all products of the selected Brand[0m   [90m# BrandFilterStepDefinition.user_should_be_able_to_get_the_all_products_of_the_selected_Brand()[0m
+
+  Scenario: Select Type Option for nike                                      [90m# src/test/Resources/Type.feature:12[0m
+    [32mGiven [0m[32mUser is on the ResultPage of HomePage of Argos WebSite[0m             [90m# TypeStepDefinition.user_is_on_the_ResultPage_of_HomePage_of_Argos_WebSite()[0m
+    [32mWhen [0m[32mUser click on Type option[0m                                           [90m# TypeStepDefinition.user_click_on_Type_option()[0m
+    [32mThen [0m[32mUser should be able to get all the products of the selected option.[0m [90m# ResultPageStepDefinition.user_should_be_able_to_get_all_the_products_of_the_selected_option()[0m
